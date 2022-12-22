@@ -24,6 +24,7 @@ cd FML
 git add notebooks/*
 git add *
 git add .gitignore 
+git reset    # to undo and start again
 git status
 git commit -m 'Initial commit for notebooks'
 git push
