@@ -8,6 +8,13 @@ Use to store and track Jupyter notebooks and other core material.
 
 
 
+#### Binder
+
+Use these notebooks on <mybinder.org>...
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/variationalform/FML.git/HEAD)
+
+
 
 #### Git - usage notes
 
