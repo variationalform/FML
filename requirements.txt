@@ -1,5 +1,7 @@
 # ref: https://stackoverflow.com/questions/61858062/install-pandas-for-jupyter-notebook-in-binder#
 # 27 Dec 2022
+# use mybinder.org with
+# https://github.com/variationalform/FML.git
 
 numpy
 matplotlib
