@@ -1,0 +1,7 @@
+# ref: https://stackoverflow.com/questions/61858062/install-pandas-for-jupyter-notebook-in-binder#
+# 27 Dec 2022
+
+numpy
+matplotlib
+seaborn
+pandas
