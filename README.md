@@ -38,3 +38,8 @@ git push
 ```
 Note that `.gitignore` is a hidden file. It's worth collaborating with it though.
 
+From <https://stackoverflow.com/questions/54825213/git-log-source-in-pretty-format>
+
+```bash
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+```
