@@ -43,3 +43,17 @@ From <https://stackoverflow.com/questions/54825213/git-log-source-in-pretty-form
 ```bash
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 ```
+
+
+If changes are made remotely, sync them locally and see what changed with,
+```bash
+git pull            # changes the lovcal branch
+git fetch           # doesn't change local branch, just remote
+git log --patch     # see what changed
+git whatchanged     # deprecated
+git log --pretty=oneline
+git log --pretty=short
+git log --pretty=medium
+git log --pretty=full
+git log --pretty=fuller
+```

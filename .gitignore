@@ -8,7 +8,9 @@
 notebooks/*.DS_Store
 notebooks/*.png
 notebooks/*.jpg
+notebooks/*.html
 notebooks/formats
+makefile
 !*/gfx
 !*.ipynb
 
