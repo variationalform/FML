@@ -46,6 +46,7 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
 
 
 If changes are made remotely, sync them locally and see what changed with,
+
 ```bash
 git pull            # changes the lovcal branch
 git fetch           # doesn't change local branch, just remote
@@ -56,4 +57,19 @@ git log --pretty=short
 git log --pretty=medium
 git log --pretty=full
 git log --pretty=fuller
+```
+
+If changes are made in a pulled branch (e.g. by <https://github.com/xiaochuany>, try this:
+
+```bash
+# Step 1: From your project repository, check out a new branch and test the changes.
+
+git checkout -b xiaochuany-main main
+git pull https://github.com/xiaochuany/FML.git main
+
+# Step 2: Merge the changes and update on GitHub.
+
+git checkout main
+git merge --no-ff xiaochuany-main
+git push origin main
 ```
