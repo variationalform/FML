@@ -73,3 +73,25 @@ git checkout main
 git merge --no-ff xiaochuany-main
 git push origin main
 ```
+
+Creating a presentation from a jupyter notebook:
+
+```bash
+in the notebook select
+view -> cell Toolbar -> slideshow
+For each cell select slide type
+
+Then:
+# command to convert notebook to presentation
+jupyter nbconvert --to slides presentation.ipynb
+
+In the browser do this...
+file:///home/.../presentation.slides.html?print-pdf#/
+
+which will then be available to save as PDF.
+
+```
+
+Main reference for the above was 
+<https://mljar.com/blog/jupyter-notebook-presentation/>
+
