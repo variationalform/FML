@@ -58,6 +58,7 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
 jupyter notebook list # obtain the notebook token if it gets requested.
 git reflog
 git fetch && git diff main origin/main
+git fetch && git diff main origin/main --compact-summary
 ```
 
 
