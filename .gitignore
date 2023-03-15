@@ -6,6 +6,7 @@
 !notebooks
 !notebooks/**
 notebooks/*.DS_Store
+notebooks/gfx/*.DS_Store
 notebooks/*.png
 notebooks/*.jpg
 notebooks/*.html
