@@ -7,6 +7,8 @@
 !notebooks/**
 notebooks/*.DS_Store
 notebooks/gfx/*.DS_Store
+notebooks/data/.DS_Store
+notebooks/data/MNIST/.DS_Store
 notebooks/*.png
 notebooks/*.jpg
 notebooks/*.html
